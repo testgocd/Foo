@@ -1,0 +1,7 @@
+build:
+  pre_ci:
+    - pwd
+  ci:
+    - ls
+  post_ci:
+    - echo "done"
